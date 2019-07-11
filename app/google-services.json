@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "968807846889",
+    "firebase_url": "https://onlineshoppingoods.firebaseio.com",
+    "project_id": "onlineshoppingoods",
+    "storage_bucket": "onlineshoppingoods.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968807846889:android:c2c3fb37041f14e5",
+        "android_client_info": {
+          "package_name": "com.app.onlineshoppingoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968807846889-cudtfn33krermktqs7002mqj343h3ou1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.onlineshoppingoods",
+            "certificate_hash": "094ccfb2ecd19721f97338ad53bbc6375b6d14da"
+          }
+        },
+        {
+          "client_id": "968807846889-2vm9v4ocjs95doaks66bsrqd71d3r5hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtk8zr7IfjbnNUwju_ICZ86cEtAgf0kmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968807846889-2vm9v4ocjs95doaks66bsrqd71d3r5hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
