@@ -71,10 +71,19 @@ public class UserCategoryActivity extends AppCompatActivity {
                     }else if (finalI == 4) {   //ActivityFive
                         Intent intent = new Intent(UserCategoryActivity.this, ActivityFive.class);
                         startActivity(intent);
-                    }else{
-                        Toast.makeText(UserCategoryActivity.this, "Please set Activity for this card item",Toast.LENGTH_SHORT);
+                    }else if (finalI == 5) {   //ActivitySix
+                        Intent intent = new Intent(UserCategoryActivity.this, ActivitySix.class);
+                        startActivity(intent);
+                    }else if (finalI == 6) {   //ActivitySeven
+                        Intent intent = new Intent(UserCategoryActivity.this, ActivitySeven.class);
+                        startActivity(intent);
+                    }else if (finalI == 7) {   //ActivityEight
+                        Intent intent = new Intent(UserCategoryActivity.this, ActivityEight.class);
+                        startActivity(intent);
+                    }else if (finalI == 8) {   //ActivityNine
+                        Intent intent = new Intent(UserCategoryActivity.this, ActivityNine.class);
+                        startActivity(intent);
                     }
-
 
 //                    Intent intent = new Intent(UserCategoryActivity.this,HomeActivity.class);
 //                    intent.putExtra("info","This is activity from card item index  "+finalI);

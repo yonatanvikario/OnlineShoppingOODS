@@ -12,7 +12,11 @@
         android:roundIcon="@drawable/oods"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivityFive"></activity>
+        <activity android:name=".ActivityNine"></activity>
+        <activity android:name=".ActivityEight" />
+        <activity android:name=".ActivitySeven" />
+        <activity android:name=".ActivitySix" />
+        <activity android:name=".ActivityFive" />
         <activity android:name=".ActivityFour" />
         <activity android:name=".ActivityThree" />
         <activity android:name=".ActivityTwo" />
