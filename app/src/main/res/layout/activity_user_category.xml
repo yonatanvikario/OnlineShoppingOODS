@@ -233,7 +233,7 @@
                         android:layout_height="45dp" />
 
                     <TextView
-                        android:text="Instrument"
+                        android:text="Instrumentation"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="17sp"
