@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/product_image_details"
         android:layout_width="match_parent"
-        android:layout_height="260dp"
+        android:layout_height="240dp"
         android:scaleType="fitCenter" />
     <TextView
         android:id="@+id/product_name_details"
@@ -20,7 +20,7 @@
         android:text="Product Name"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:gravity="center"
         android:layout_marginTop="10dp"
         />
@@ -31,9 +31,9 @@
         android:layout_below="@+id/product_name_details"
         android:text="Product Description"
         android:textColor="@android:color/black"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="1dp"
         />
 
     <TextView
@@ -44,7 +44,7 @@
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="1dp"
         android:layout_marginStart="110dp"
         android:layout_below="@+id/product_description_details"
         android:textStyle="bold" />
@@ -56,37 +56,37 @@
         android:layout_below="@+id/product_description_details"
         android:layout_alignParentStart="true"
         android:layout_marginStart="110dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="1dp"
         android:gravity="center"
         android:text="Product Price"
         android:textColor="@android:color/black"
         android:textSize="20dp"
         android:textStyle="bold" />
+
     <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
         android:id="@+id/number_btn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="60dp"
-        app:textSize="16dp"
-        app:initialNumber="1"
-        app:finalNumber="100"
-        android:layout_centerHorizontal="true"
+        android:layout_height="35dp"
         android:layout_below="@+id/product_price_details"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        >
+        android:elevation="100dp"
+        app:finalNumber="100"
+        app:initialNumber="1"
+        app:textSize="10dp">
 
     </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
 
     <Button
         android:id="@+id/pd_add_to_cart_button"
-        android:layout_width="match_parent"
+        android:layout_width="386dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="60dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="71dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="205dp"
         android:background="@color/colorPrimaryDark"
         android:text="Add to Cart"
         android:textColor="@android:color/white"
@@ -94,13 +94,51 @@
 
     <Button
         android:id="@+id/btn_do_task"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:layout_marginLeft="100dp"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
         android:background="@color/cardview_dark_background"
-        android:text="Open Dialer With Phone Number"
+        android:text="Call +6285836000151"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_do_task2"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Call +6282173332233"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_do_task3"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Call +6282288303338"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_do_task4"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Call +62778475467"
         android:textColor="@android:color/white"
         android:textSize="18dp" />
 

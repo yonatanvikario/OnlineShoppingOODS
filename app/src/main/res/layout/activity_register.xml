@@ -10,9 +10,9 @@
         android:id="@+id/register_applogo"
         android:layout_width="400dp"
         android:layout_height="300dp"
-        android:src="@drawable/oods_logo"
+        android:src="@drawable/oods"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="5dp"
         />
 
     <EditText
@@ -81,5 +81,19 @@
         android:text="Create Account"
         android:textColor="@android:color/white"
         />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="45dp"
+        android:text="https://www.oodsgroup.com/"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>

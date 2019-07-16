@@ -43,7 +43,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
     private Activity mActivity;
 
     private RelativeLayout mRootLayout;
-    private Button mBtnDoTask;
+    private Button mBtnDoTask,mBtnDoTask2,mBtnDoTask3,mBtnDoTask4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,11 +64,35 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
         mRootLayout = findViewById(R.id.root_layout);
         mBtnDoTask = findViewById(R.id.btn_do_task);
+        mBtnDoTask2 = findViewById(R.id.btn_do_task2);
+        mBtnDoTask3 = findViewById(R.id.btn_do_task3);
+        mBtnDoTask4 = findViewById(R.id.btn_do_task4);
 
         mBtnDoTask.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openDialer();
+            }
+        });
+
+        mBtnDoTask2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openDialer1();
+            }
+        });
+
+        mBtnDoTask3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openDialer2();
+            }
+        });
+
+        mBtnDoTask4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openDialer3();
             }
         });
 
@@ -88,12 +112,29 @@ public class ProductDetailsActivity extends AppCompatActivity {
 
     }
 
-    private void openDialer() {
+    private void openDialer3() {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:"+"0778475467"));
+        startActivity(intent);
+    }
+
+    private void openDialer2() {
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:"+"082288303338"));
         startActivity(intent);
     }
 
+    private void openDialer() {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:"+"085836000151"));
+        startActivity(intent);
+    }
+
+    private void openDialer1() {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:"+"082173332233"));
+        startActivity(intent);
+    }
 
     @Override
     protected void onStart() {

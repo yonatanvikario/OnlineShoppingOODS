@@ -12,7 +12,10 @@
         android:roundIcon="@drawable/oods_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SearchProductsActivity" />
+        <activity android:name=".UserCategoryActivity"></activity>
+        <activity
+            android:name=".SearchProductsActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".AdminUserProductsActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
