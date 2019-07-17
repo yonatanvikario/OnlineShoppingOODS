@@ -29,7 +29,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 
 public class AdminAddNewProductActivity extends AppCompatActivity {
-    private String CategoryName, Description, Price, Pname, saveCurrentDate, saveCurrentTime;
+    private String CategoryName, Category, Description, Price, Pname, saveCurrentDate, saveCurrentTime;
     private Button AddNewProductButton;
     private ImageView InputProductImage;
     private EditText InputProductName, InputProductDescription, InputProductPrice;

@@ -141,20 +141,25 @@ public class CartActivity extends AppCompatActivity {
                     String shippingState = dataSnapshot.child("state").getValue().toString();
                     String userName = dataSnapshot.child("name").getValue().toString();
                     if (shippingState.equals("Shipped")){
-                        txtTotalAmount.setText("TDear "+userName+"\n order is shipped successfully.");
-                        recyclerView.setVisibility(View.GONE);
+                        txtTotalAmount.setText("Dear "+userName+"\n order is shipped successfully.");
+                        recyclerView.setVisibility(View.VISIBLE);
                         txtMsg1.setVisibility(View.VISIBLE);
-                        txtMsg1.setText("Congratulations, Your Final order has been shipped successfully. Soon you will received your order at your door step.");
-                        NextProcessBtn.setVisibility(View.GONE);
-                        Toast.makeText(CartActivity.this,"You can purchase more products, Once you received your first order",Toast.LENGTH_SHORT).show();
+                        txtMsg1.setText("Fandy,\n" +
+                                "terimakasih atas ketertarikan Anda terhadap produk kami!\n" +
+                                "Selanjutnya, tim layanan konsumen kami akan menghubungi Anda langsung di nomor telefon: 082173332233.");
+                        NextProcessBtn.setVisibility(View.VISIBLE);
+                        Toast.makeText(CartActivity.this,"Pesanan Anda sedang di proses oleh Tim Layanan Konsumen Kami, Mohon menunggu Pesanan Anda selesai kami proses",Toast.LENGTH_LONG).show();
                     }
                     else if (shippingState.equals("Not Shipped")){
                         txtTotalAmount.setText("Shipping State = Not Shipped");
-                        recyclerView.setVisibility(View.GONE);
+                        recyclerView.setVisibility(View.GONE); //before GONE
                         txtMsg1.setVisibility(View.VISIBLE);
+                        txtMsg1.setText("Fandy,\n" +
+                                "terimakasih atas ketertarikan Anda terhadap produk kami!\n" +
+                                "Selanjutnya, tim layanan konsumen kami akan menghubungi Anda langsung di nomor telefon: 082173332233.");
 
-                        NextProcessBtn.setVisibility(View.GONE);
-                        Toast.makeText(CartActivity.this,"You can purchase more products, Once you received your first order",Toast.LENGTH_SHORT).show();
+                        NextProcessBtn.setVisibility(View.VISIBLE);
+                        Toast.makeText(CartActivity.this,"Pesanan Anda sedang di proses oleh Tim Layanan Konsumen Kami, Mohon menunggu Pesanan Anda selesai kami proses",Toast.LENGTH_LONG).show();
                     }
                 }
             }

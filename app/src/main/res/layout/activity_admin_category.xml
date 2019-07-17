@@ -4,7 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminCategoryActivity">
+    tools:context=".AdminCategoryActivity"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/nav_view"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--app:headerLayout="@layout/nav_header_home"-->
+        <!--app:menu="@menu/activity_admin_drawer" />-->
+
     <TextView
         android:id="@+id/slogan_category"
         android:layout_width="match_parent"
@@ -12,7 +24,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
         android:text="Add New Product"
+        android:textAllCaps="true"
         android:textAlignment="center"
         android:textSize="26sp"
         android:textStyle="bold"
@@ -41,14 +55,14 @@
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:src="@drawable/ic_file_upload_black_24dp" />
+            android:src="@drawable/mechanical" />
 
 
         <ImageView
             android:id="@+id/sweathers"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/ic_file_upload_black_24dp"/>
+            android:src="@drawable/electrical"/>
 
     </LinearLayout>
     <LinearLayout
@@ -98,7 +112,7 @@
             android:id="@+id/glasses"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/ic_file_upload_black_24dp"
+            android:src="@drawable/concreate"
             />
 
         <ImageView
@@ -107,14 +121,14 @@
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:src="@drawable/ic_file_upload_black_24dp"
+            android:src="@drawable/instrumentation"
             />
 
         <ImageView
             android:id="@+id/hats_caps"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/ic_file_upload_black_24dp"
+            android:src="@drawable/general"
             />
 
     </LinearLayout>
@@ -166,23 +180,23 @@
             android:id="@+id/headphones_handfree"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/ic_file_upload_black_24dp"
+            android:src="@drawable/renewable_energy"
             />
 
         <ImageView
             android:id="@+id/laptop_pc"
             android:layout_width="90dp"
-            android:layout_height="80dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:src="@drawable/ic_file_upload_black_24dp"
+            android:src="@drawable/marine_shipyard"
             />
 
         <ImageView
             android:id="@+id/watches"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/ic_file_upload_black_24dp"
+            android:src="@drawable/oil_gas"
             />
 
     </LinearLayout>

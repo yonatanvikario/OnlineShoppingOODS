@@ -57,7 +57,7 @@ public class UserCategoryActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     if (finalI == 0){   //finalI before i, ActivityOne
-                        Intent intent =  new Intent(UserCategoryActivity.this, ActivityOne.class);
+                        Intent intent =  new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 1) {   //ActivityTwo
                         Intent intent = new Intent(UserCategoryActivity.this, ActivityTwo.class);
@@ -88,7 +88,6 @@ public class UserCategoryActivity extends AppCompatActivity {
 //                    Intent intent = new Intent(UserCategoryActivity.this,HomeActivity.class);
 //                    intent.putExtra("info","This is activity from card item index  "+finalI);
 //                    startActivity(intent);
-
 
                 }
             });
