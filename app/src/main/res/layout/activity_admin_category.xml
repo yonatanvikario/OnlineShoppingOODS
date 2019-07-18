@@ -174,7 +174,7 @@
         android:orientation="horizontal"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="60dp">
 
         <ImageView
             android:id="@+id/headphones_handfree"
@@ -233,8 +233,22 @@
             android:text="OIL and GAS"
             android:textStyle="bold"
             android:textAlignment="center"/>
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/check_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/check_orders_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check Product"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
 
     <Button
         android:id="@+id/check_orders_btn"

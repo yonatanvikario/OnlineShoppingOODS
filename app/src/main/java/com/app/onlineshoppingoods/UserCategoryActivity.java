@@ -60,28 +60,28 @@ public class UserCategoryActivity extends AppCompatActivity {
                         Intent intent =  new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 1) {   //ActivityTwo
-                        Intent intent = new Intent(UserCategoryActivity.this, ActivityTwo.class);
+                        Intent intent = new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 2) {   //ActivityThree
-                        Intent intent = new Intent(UserCategoryActivity.this, ActivityThree.class);
+                        Intent intent = new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 3) {   //ActivityFour
-                        Intent intent = new Intent(UserCategoryActivity.this, ActivityFour.class);
+                        Intent intent = new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 4) {   //ActivityFive
-                        Intent intent = new Intent(UserCategoryActivity.this, ActivityFive.class);
+                        Intent intent = new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 5) {   //ActivitySix
-                        Intent intent = new Intent(UserCategoryActivity.this, ActivitySix.class);
+                        Intent intent = new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 6) {   //ActivitySeven
-                        Intent intent = new Intent(UserCategoryActivity.this, ActivitySeven.class);
+                        Intent intent = new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 7) {   //ActivityEight
-                        Intent intent = new Intent(UserCategoryActivity.this, ActivityEight.class);
+                        Intent intent = new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }else if (finalI == 8) {   //ActivityNine
-                        Intent intent = new Intent(UserCategoryActivity.this, ActivityNine.class);
+                        Intent intent = new Intent(UserCategoryActivity.this, HomeActivity.class);
                         startActivity(intent);
                     }
 

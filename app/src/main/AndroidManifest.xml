@@ -12,7 +12,8 @@
         android:roundIcon="@drawable/oods_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivityNine"></activity>
+        <activity android:name=".CheckProductActivity"></activity>
+        <activity android:name=".ActivityNine" />
         <activity android:name=".ActivityEight" />
         <activity android:name=".ActivitySeven" />
         <activity android:name=".ActivitySix" />
@@ -48,8 +49,9 @@
         <activity
             android:name=".CartActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".ProductDetailsActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".SettinsActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

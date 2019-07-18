@@ -95,7 +95,7 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()){
-                                        Toast.makeText(ConfirmFinalOrderActivity.this,"Fandy,\n" +
+                                        Toast.makeText(ConfirmFinalOrderActivity.this,"Dear " + nameEditText+
                                                 "terimakasih atas ketertarikan Anda terhadap produk kami!\n" +
                                                 "Selanjutnya, tim layanan konsumen kami akan menghubungi Anda langsung di nomor telefon: 082173332233.",Toast.LENGTH_LONG).show();
                                         Intent intent = new Intent(ConfirmFinalOrderActivity.this,HomeActivity.class);
