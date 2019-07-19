@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     android:background="@color/cardview_light_background"
     tools:context=".LoginActivity">
 
@@ -15,14 +16,13 @@
         android:src="@drawable/oods" />
 
     <TextView
+        android:fitsSystemWindows="true"
         android:id="@+id/app_slogan"
         android:layout_below="@+id/login_applogo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_marginTop="250dp"
-        android:layout_marginEnd="45dp"
         android:text="https://www.oodsgroup.com/"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
