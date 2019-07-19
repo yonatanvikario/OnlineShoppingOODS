@@ -66,7 +66,7 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity {
     private void ConfirmOrder() {
         final String saveCurrentTime,saveCurrentDate;
         Calendar calForDate = Calendar.getInstance();
-        SimpleDateFormat currentDate = new SimpleDateFormat("dd.MM.yyyy");
+        SimpleDateFormat currentDate = new SimpleDateFormat("dd-MM-yyyy");
         saveCurrentDate = currentDate.format(calForDate.getTime());
         SimpleDateFormat currentTime = new SimpleDateFormat("h:mm a");
         saveCurrentTime = currentTime.format(calForDate.getTime());
@@ -96,7 +96,7 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()){
                                         Toast.makeText(ConfirmFinalOrderActivity.this,"Dear Buyer" +
-                                                "terimakasih atas ketertarikan Anda terhadap produk kami!\n" +
+                                                " terimakasih atas ketertarikan Anda terhadap produk kami!\n" +
                                                 "Selanjutnya, tim layanan konsumen kami akan menghubungi Anda langsung di nomor telefon: 082173332233.",Toast.LENGTH_LONG).show();
                                         Intent intent = new Intent(ConfirmFinalOrderActivity.this,HomeActivity.class);
                                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

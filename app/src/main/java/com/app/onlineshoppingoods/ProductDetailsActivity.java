@@ -145,7 +145,7 @@ public class ProductDetailsActivity extends AppCompatActivity {
     private void addingToCartList() {
         String saveCurrentTime,saveCurrentDate;
         Calendar calForDate = Calendar.getInstance();
-        SimpleDateFormat currentDate = new SimpleDateFormat("MMM dd. yyy");
+        SimpleDateFormat currentDate = new SimpleDateFormat("dd-MM-yyyy");
         saveCurrentDate = currentDate.format(calForDate.getTime());
         SimpleDateFormat currentTime = new SimpleDateFormat("h:mm a");
         saveCurrentTime = currentTime.format(calForDate.getTime());

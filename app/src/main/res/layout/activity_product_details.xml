@@ -85,7 +85,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="205dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/buttons"
         android:text="Add to Cart"
         android:textColor="@android:color/white"
         android:textSize="18dp" />
@@ -97,7 +97,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="70dp"
-        android:background="@color/cardview_dark_background"
+        android:background="@drawable/button"
         android:text="Call +6285836000151"
         android:textColor="@android:color/white"
         android:textSize="18dp" />
@@ -110,7 +110,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="24dp"
-        android:background="@color/cardview_dark_background"
+        android:background="@drawable/button"
         android:text="Call +6282173332233"
         android:textColor="@android:color/white"
         android:textSize="18dp" />
@@ -123,7 +123,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="160dp"
-        android:background="@color/cardview_dark_background"
+        android:background="@drawable/button"
         android:text="Call +6282288303338"
         android:textColor="@android:color/white"
         android:textSize="18dp" />
@@ -135,7 +135,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="115dp"
-        android:background="@color/cardview_dark_background"
+        android:background="@drawable/button"
         android:text="Call +62778475467"
         android:textColor="@android:color/white"
         android:textSize="18dp" />

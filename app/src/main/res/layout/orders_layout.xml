@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:layout_margin="10dp"
-        android:background="@color/colorPrimaryDark">
+        android:background="@drawable/buttons">
 
         <TextView
             android:id="@+id/order_user_name"
@@ -72,10 +72,10 @@
             android:layout_below="@+id/order_date_time"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="@android:color/white"
+            android:background="@drawable/button"
             android:text="Show User Order Product"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
             android:layout_marginTop="20dp" />
 
     </RelativeLayout>

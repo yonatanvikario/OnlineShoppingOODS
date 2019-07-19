@@ -80,16 +80,6 @@
             android:textSize="18sp"
             android:layout_marginLeft="17dp"
             />
-
-        <TextView
-            android:id="@+id/forget_password_link"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Forget Password?"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="19sp"
-            android:layout_marginLeft="70dp"
-            />
     </LinearLayout>
 
 
@@ -98,9 +88,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linear_layout_1"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="45dp"
-        android:layout_marginRight="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:background="@drawable/buttons"
         android:padding="17dp"
         android:textAllCaps="false"
@@ -115,7 +104,6 @@
         android:text="I'm an Admin?"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/login_btn"
-        android:layout_marginTop="10dp"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:textStyle="bold"
