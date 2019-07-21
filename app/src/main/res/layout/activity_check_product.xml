@@ -9,9 +9,10 @@
     android:padding="16dp"
     android:layout_marginEnd="15dp"
     app:cardElevation="15dp">
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="180dp"
         android:layout_height="180dp"
+        android:orientation="vertical"
         android:id="@+id/root_layout"
         android:padding="16dp">
         <TextView
@@ -54,6 +55,6 @@
             android:textSize="16dp"
             android:textColor="@color/colorPrimaryDark" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
 </android.support.v7.widget.CardView>

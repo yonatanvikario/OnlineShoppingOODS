@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".SplashScreen">
 
     <ImageView
@@ -22,8 +23,8 @@
         android:layout_marginTop="450dp"
         android:text="https://www.oodsgroup.com/"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
         android:textStyle="bold|italic" />
 
 </RelativeLayout>

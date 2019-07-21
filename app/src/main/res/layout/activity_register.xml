@@ -92,7 +92,7 @@
         android:fitsSystemWindows="true"
         android:text="https://www.oodsgroup.com/"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold|italic" />
 

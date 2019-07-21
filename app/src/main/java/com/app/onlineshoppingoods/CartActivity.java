@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import com.app.onlineshoppingoods.Model.Cart;
 import com.app.onlineshoppingoods.Prevalent.CartViewHolder;
@@ -31,7 +32,7 @@ import com.google.firebase.database.ValueEventListener;
 public class CartActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
-    private Button NextProcessBtn;
+    private Button NextProcessBtn, BackProcessBtn;
     private TextView txtTotalAmount, txtMsg1;
     private int overTotalPrice=0;
     @Override
@@ -45,6 +46,15 @@ public class CartActivity extends AppCompatActivity {
         NextProcessBtn = (Button)findViewById(R.id.next_btn);
         txtTotalAmount = (TextView)findViewById(R.id.total_price);
         txtMsg1 = (TextView)findViewById(R.id.msg1);
+
+        BackProcessBtn = (Button)findViewById(R.id.back_btn);
+        BackProcessBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(CartActivity.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
         NextProcessBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -46,11 +46,27 @@
     </android.support.v7.widget.RecyclerView>
 
     <Button
+        android:id="@+id/back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="77dp"
+        android:background="@drawable/buttonb"
+        android:text="Back"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <Button
         android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttons"
         android:text="Next"
         android:textColor="@android:color/white"
         android:textSize="25dp" />

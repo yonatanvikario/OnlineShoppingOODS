@@ -25,8 +25,8 @@
         android:layout_marginEnd="6dp"
         android:text="https://www.oodsgroup.com/"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
         android:textStyle="bold|italic" />
 
     <Button
@@ -41,7 +41,7 @@
         android:layout_marginTop="500dp"
         android:textAllCaps="false"
         android:textColor="@color/colorPrimary"
-        android:textSize="18sp" />
+        android:textSize="20dp" />
     <Button
         android:id="@+id/main_login_btn"
         android:layout_width="match_parent"
